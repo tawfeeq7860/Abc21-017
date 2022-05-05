@@ -1,0 +1,243 @@
+body{
+  background-color:#669999;
+  margin:0;
+  padding:0;
+}
+h1{
+	color:#f2f2f2;
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight:bold;
+  font-size:60px;
+  text-shadow: 4px 4px 4px #669999;
+}
+.pagebox{
+	border-style:solid;
+	border-color:black; 
+	background-color:black;
+}
+.openpage{
+	color:white;
+	font-family: 'Orbitron', sans-serif; 
+	word-spacing:80px;
+	text-align:center; 
+	text-shadow:8px 8px 8px #B468C0;
+}
+h2{
+	color:black;
+  font-family: 'Orbitron', sans-serif;
+  font-size:11px;
+}
+h3{
+	color:black;
+  font-family: 'Orbitron', sans-serif;
+  font-size:20px;
+  text-align:justify;
+}
+h4{
+	font-size:18px; 
+	color:white;
+	text-align:center;
+	text-shadow:8px 8px 8px #ffffff;
+	font-family: 'Orbitron', sans-serif;
+}
+
+li {
+display: inline;
+list-style-type: none;
+}
+
+img[title=homecover]{
+	height:125px;
+	width:100%;
+}
+img[title=Facebook],img[title=Twitter],img[title=Instagram]{
+	height:25px;
+	width:25px;
+}
+}
+a:active{
+  color:#ac3973;
+  text-shadow:8px 8px 8px #ffffff;
+   text-decoration:none;
+}
+a:visited {
+  color:#ac3973;
+  text-shadow:8px 8px 8px #ffffff;
+   text-decoration:none;
+}
+a:link {
+  color:white;
+  text-shadow:8px 8px 8px #B468C0;
+   text-decoration:none;
+}
+a:hover {
+  color:white;
+  text-shadow:8px 8px 8px #ffffff;
+   text-decoration:none;
+}
+.container{
+	position: relative;
+  text-align: center;
+}
+
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container*/
+.slideshow-container {
+  width:90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color:white;
+  font-family: 'Orbitron', sans-serif;
+  font-size:25px;
+}
+
+/* Number text (1/5etc) */
+.numbertext {
+  font-size: 12px;
+  color:white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#aboutbox{
+	border-style:solid;
+ border-color:#595959; 
+ background-color: #595959;
+ color:black;
+ text-align:justify;
+ }
+ #copyright{
+		border-style:solid;
+ border-color:balck; 
+ background-color: black;
+ text-align:center; 
+ }
+ 
+ img[title=actionmovies],img[title=animationmovies], img[title=comedymovies], img[title=horrormovies], img[title=avengersposter], img[title=extractionposter], img[title=cars],img[title=grownups],img[title=scream],img[title=drstrange],img[title=beasts],img[title=Batman]{
+	 width:236px;
+	 height:349px;
+ }
+ 
+ form{
+	 
+	 color:black;
+     font-family: 'Orbitron', sans-serif;
+     font-size:14px;
+	 margin-left:25px;
+	 margin-bottom:25px;
+	 margin-top:25px;
+	 margin-right:25px;
+ }
+ 
+ legend{
+	 font-size:18px; 
+	color:white;
+	text-shadow:8px 8px 8px #ffffff;
+	font-family: 'Orbitron', sans-serif;
+ }
+ 
+ input[type=text]:focus {
+  border: 3px solid #B468C0;
+  outline: none;
+}
+
+select {
+  width: 15%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color:white;
+  color:black;
+     font-family: 'Orbitron', sans-serif;
+     font-size:14px;
+}
+
+input[type=submit], input[type=reset] {
+  
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: underline;
+  color:black;
+  font-family: 'Orbitron', sans-serif;
+  font-size:14px;
+}
+ 
