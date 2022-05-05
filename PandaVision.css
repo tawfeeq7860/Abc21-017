@@ -10,17 +10,15 @@ h1{
   font-size:60px;
   text-shadow: 4px 4px 4px #669999;
 }
-.pagebox{
-	border-style:solid;
-	border-color:black; 
-	background-color:black;
-}
+
 .openpage{
 	color:white;
 	font-family: 'Orbitron', sans-serif; 
-	word-spacing:80px;
-	text-align:center; 
 	text-shadow:8px 8px 8px #B468C0;
+	text-align:center;
+	border-style:solid;
+	border-color:black; 
+	background-color:black;
 }
 h2{
 	color:black;
@@ -41,10 +39,26 @@ h4{
 	font-family: 'Orbitron', sans-serif;
 }
 
-li {
-display: inline;
-list-style-type: none;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
 
 img[title=homecover]{
 	height:125px;
