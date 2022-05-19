@@ -28,6 +28,9 @@ h1{
   .flex-container,.flex-movie {
     flex-direction: column;
   }
+	h1{
+	  font-size:2rem
+  }
 }
 
 
