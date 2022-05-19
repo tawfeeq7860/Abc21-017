@@ -1,21 +1,30 @@
 body{
-	display:flex;
+	
   background-color:#669999;
   margin:0;
   padding:0;
 }
- @media screen and (max-width: 10000px) {
-        body {
-          flex-direction: column;
-        }
-    }
+ 
 h1{
 	color:#f2f2f2;
   font-family: 'Asap Condensed', sans-serif;
   font-weight:bold;
-  font-size:60px;
+  font-size:3.5rem;
   text-shadow: 4px 4px 4px #669999;
 }
+.flex-container,.flex-movie {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.flex-movie {
+	gap:10px;
+}
+.flex-container {
+	gap:100px;
+}
+
 
 .openpage{
 	color:white;
