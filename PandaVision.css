@@ -24,6 +24,11 @@ h1{
 .flex-container {
 	gap:100px;
 }
+@media (max-width: 800px) {
+  .flex-container,.flex-movie {
+    flex-direction: column;
+  }
+}
 
 
 .openpage{
